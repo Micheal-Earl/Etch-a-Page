@@ -1,0 +1,27 @@
+.wrapper {
+  height: 600px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gridWrapper {
+  height: 500px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gridTile {
+  float: left;
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  opacity: 0.5;
+}
+
+#buttons {
+  padding-top: 10px;
+  width: 500;
+  float: left;
+}
