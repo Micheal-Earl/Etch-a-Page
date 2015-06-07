@@ -50,7 +50,7 @@ function createGrid() {
 
   $('.gridTile').width(squarePxDim);
   $('.gridTile').height(squarePxDim);
-  
+
   runningMain();
 }
 
