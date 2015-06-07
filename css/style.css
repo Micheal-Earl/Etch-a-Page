@@ -23,5 +23,8 @@
 #buttons {
   padding-top: 10px;
   width: 500;
-  float: left;
+}
+
+#trail, #random {
+  float: right;
 }

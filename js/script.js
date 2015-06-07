@@ -41,12 +41,16 @@ function createGrid() {
 
   squarePxDim = 500 / x;
   squares = x * x;
+
   $('.gridTile').remove();
-  for(i = 0; i < x * x; i++) {
+
+  for(i = 0; i < squares; i++) {
     $('.gridWrapper').append('<div class="gridTile"> </div>');
   };
+
   $('.gridTile').width(squarePxDim);
   $('.gridTile').height(squarePxDim);
+  
   runningMain();
 }
 
